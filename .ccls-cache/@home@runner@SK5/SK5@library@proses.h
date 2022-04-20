@@ -19,7 +19,7 @@ class proses {
       cout<<"\n======================="<<endl;
       cout << "\nMasukkan nama matkul :"; cin >> nmmatkul;
       cout << "Masukkan jumlah sks : "; cin >> sks;
-      spp = sks * 150000 * 0.75;
+      spp = (sks * 150000) * 0.75;
       total = total + spp;
       }
       cout << "\n------------------------------------\n";  
