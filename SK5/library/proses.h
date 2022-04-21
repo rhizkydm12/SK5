@@ -16,6 +16,7 @@ class proses {
       tulis_data.open("api_data.txt");
       tulis_data<<matkul<<endl;
 			tulis_data.close();
+      for (int i = 0; i < matkul; i++){ 
       cout<<"\n======================="<<endl;
       cout << "\nMasukkan nama matkul :"; cin >> nmmatkul;
       cout << "Masukkan jumlah sks : "; cin >> sks;
